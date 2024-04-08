@@ -7,14 +7,14 @@ local Tab = Window:NewTab("LukasHub V2")
 local Section = Tab:NewSection("Main")
 
 Section:NewButton("Gem dupe", "ButtonInfo", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/LUKAROBLOX/Protected-Scripts/main/gemspoof'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/LUKAROBLOX/Protected-Scripts/main/gemspoof2'))()
 end)
 
 
 local Section = Tab:NewSection("Usefull")
 
 Section:NewToggle("Toggle Mail Box Dupe", "Toggle Mail Box Dupe", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/LUKAROBLOX/Protected-Scripts/main/gemspoof'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/LUKAROBLOX/Protected-Scripts/main/gemspoof2'))()
 end)
 
 
