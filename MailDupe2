@@ -14,7 +14,7 @@ end)
 local Section = Tab:NewSection("Usefull")
 
 Section:NewToggle("Toggle Mail Box Dupe", "Toggle Mail Box Dupe", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/LUKAROBLOX/Protected-Scripts/main/MailboxDupeV2'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/LUKAROBLOX/Protected-Scripts/main/gemspoof'))()
 end)
 
 
