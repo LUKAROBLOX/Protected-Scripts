@@ -1,0 +1,10 @@
+`local lib = require(game:GetService("ReplicatedStorage").Library)
+local old
+old = hookmetamethod(game, "__namecall", function(self, ...)
+local args = {...}
+    if tostring(self) == "Mailbox: Send" and getnamecallmethod() == "InvokeServer" then
+        args[5] = 10000
+        print(unpack(args))
+    end
+return old(self, unpack(args))
+end)
